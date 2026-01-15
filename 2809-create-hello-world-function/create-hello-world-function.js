@@ -1,4 +1,4 @@
-let createHelloWorld = function (){
+let createHelloWorld = () => {
     return function (){
         return 'Hello World'
     }
